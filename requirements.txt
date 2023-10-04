@@ -14,4 +14,4 @@ uvicorn==0.13.4
 joblib
 #sklearn
 numpy
-calender
+
