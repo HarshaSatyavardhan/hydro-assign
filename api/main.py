@@ -7,8 +7,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 app = FastAPI()
 
 # Load the saved models
-best_linear_model = joblib.load('best_linear_model.pkl')
-best_rf_model = joblib.load('best_rf_model.pkl')
+best_linear_model = joblib.load('./best_linear_model.pkl')
+best_rf_model = joblib.load('./best_rf_model.pkl')
 
 class PredictionInput(BaseModel):
     air_temperature: float
